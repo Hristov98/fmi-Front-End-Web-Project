@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(7, 121, 222, 1) 0%,
+        rgba(20, 72, 140, 1) 90%
+    );
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    max-width: 40%;
+
+    background-color: #0093e9;
+    background-image: linear-gradient(0deg, #0093e9 0%, #48c3c7 100%);
+}
+
+#legendLabel {
+    padding: 0.5rem;
+    margin: 0rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    margin: 0rem;
+
+    font-size: 1rem;
+    color: white;
+}
+
+.quickLink {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+.quickLink:focus {
+    outline: none;
+}
+
+.quickLink:hover {
+    color: black;
+}
+
+.animalsList {
+    align-items: center;
+    height: 100%;
+
+    overflow-y: auto;
+}
+
+.animalContainer {
+    display: flex;
+    margin: 2rem auto;
+
+    width: 80%;
+    height: 20rem;
+    max-height: 25rem;
+    color: white;
+
+    border: 0.25rem solid white;
+    background-color: #0093e9;
+    background-image: linear-gradient(0deg, #0093e9 0%, #48c3c7 100%);
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+    max-height: 25rem;
+    object-fit: fill;
+}
+
+.animalInformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameField {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    padding: 0.25rem;
+
+    border: 0.1rem solid white;
+}
+
+.name,
+.scientificName {
+    display: flex;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.nameLabel {
+    color: black;
+    font-weight: bold;
+}
+
+.nameField p {
+    margin: 0rem;
+    padding: 0.25rem;
+    border: 0.1rem solid white;
+}
+
+.descriptionField {
+    border: 0.1rem solid white;
+
+    padding: 0.5rem;
+}
+
+.descriptionField p {
+    margin: 0.25rem;
+}
+
+.extraField {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    border: 0.1rem solid white;
+}
