@@ -6,15 +6,32 @@
         <link rel="stylesheet" href="../../css/userControl/registration.css" />
     </head>
     <body>
-        <section>
-            <h1>Registration</h1>
-            <form>
-                <input type="text" placeholder="Username" />
-                <input type="text" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <input type="password" placeholder="Confirm password" />
-                <input id="registerButton" type="submit" value="Register" />
-            </form>
-        </section>
+        <header>
+            <button id="mainPageButton">Marine Fauna Enclyclopedia</button>
+            <nav>
+                <button class="sectionContainer">Invertebrates</button>
+                <button class="sectionContainer">Crustaceans</button>
+                <button class="sectionContainer">Ocean Fish</button>
+                <button class="sectionContainer">Sharks</button>
+                <button class="sectionContainer">Reptiles</button>
+                <button class="sectionContainer">Mammals</button>
+            </nav>
+            <div class="userManagement">
+                <button id="loginButton">Login</button>
+                <button id="registerButton">Register</button>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1>Registration</h1>
+                <form>
+                    <input type="text" placeholder="Username" />
+                    <input type="text" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <input type="password" placeholder="Confirm password" />
+                    <input id="submitRegistration" type="submit" value="Register" />
+                </form>
+            </section>
+        </main>
     </body>
 </html>

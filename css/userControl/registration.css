@@ -5,20 +5,122 @@ html {
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 0rem;
 
     font-size: 16px;
     height: 100%;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    background-color: #0077ffde;
+}
+
+#mainPageButton {
+    max-width: 12rem;
+    padding: 0.75rem 0.75rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    background: transparent;
+}
+
+#mainPageButton:focus {
+    outline: none;
+}
+
+#mainPageButton:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    width: 7.5rem;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+
+    color: #2c328bbe;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    border: 0.1rem solid black;
+    background-color: white;
+}
+
+nav button:focus {
+    outline: none;
+}
+
+nav button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2c328bbe;
+}
+
+.userManagement {
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem 0.75rem;
+}
+
+.userManagement button {
+    align-self: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    color: #2c328bbe;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    border: 0.1rem solid #2c328bbe;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.userManagement button:focus {
+    outline: none;
+}
+
+.userManagement button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2c328bbe;
+    border: 0.1rem solid white;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: radial-gradient(
         circle farthest-corner at 10% 20%,
         rgba(7, 121, 222, 1) 0%,
         rgba(20, 72, 140, 1) 90%
     );
-}
-
-* {
-    font-family: Helvetica, sans-serif;
 }
 
 section {
@@ -60,7 +162,7 @@ input {
 
     border: none;
     color: white;
-    background: transparent; 
+    background: transparent;
     border-bottom: 2px solid white;
 }
 
@@ -74,7 +176,7 @@ input::placeholder {
     text-align: center;
 }
 
-#registerButton {
+#submitRegistration {
     width: 100%;
     height: 2.25rem;
     max-width: 10rem;
@@ -89,15 +191,15 @@ input::placeholder {
     border: 0.1rem solid white;
 }
 
-#registerButton:focus {
+#submitRegistration:focus {
     outline: none;
 }
 
-#registerButton:hover {
+#submitRegistration:hover {
     cursor: pointer;
 }
 
-#registerButton:hover {
+#submitRegistration:hover {
     cursor: pointer;
     color: white;
     background-color: #2c328bbe;
