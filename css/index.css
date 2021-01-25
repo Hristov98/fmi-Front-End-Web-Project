@@ -1,0 +1,158 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
+
+    font-size: 16px;
+    height: 100%;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    background-color: #0077ffde;
+}
+
+#mainPageButton {
+    padding: 0.75rem 0.75rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    background: transparent;
+}
+
+#mainPageButton:focus {
+    outline: none;
+}
+
+#mainPageButton:hover {
+    cursor: pointer;
+}
+
+.userManagement {
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem 0.75rem;
+}
+
+.userManagement button {
+    align-self: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    color: #2c328bbe;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    border: 0.1rem solid #2c328bbe;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.userManagement button:focus {
+    outline: none;
+}
+
+.userManagement button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2c328bbe;
+    border: 0.1rem solid white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(7, 121, 222, 1) 0%,
+        rgba(20, 72, 140, 1) 90%
+    );
+}
+
+#selectionLabel {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    background: transparent;
+}
+
+.sectionList {
+    display: flex;
+    align-content: flex-start;
+    width: 60%;
+    height: 70%;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    width: 15rem;
+    height: 15rem;
+    margin: 0.5rem;
+    padding: 0rem;
+
+    background: transparent;
+}
+
+.sectionContainer:focus {
+    outline: none;
+}
+
+.sectionContainern:hover {
+    cursor: pointer;
+}
+
+.sectionLabel {
+    width: 100%;
+    margin: 0rem;
+
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+
+    color: white;
+    background-color: #2c328bbe;
+}
+
+img {
+    width: 16rem;
+    height: 16rem;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.sectionLabel:hover, .sectionImage:hover {
+    cursor: pointer;
+}

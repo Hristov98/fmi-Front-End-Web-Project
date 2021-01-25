@@ -55,12 +55,13 @@ input {
     align-self: center;
     width: 60%;
     height: 2rem;
-    margin: 0.5rem 0rem;
+    margin: 0.75rem 0rem;
     padding: 0rem;
 
     border: none;
     color: white;
-    background-color: #008cffbe;
+    background: transparent; 
+    border-bottom: 2px solid white;
 }
 
 input:focus {
@@ -85,6 +86,7 @@ input::placeholder {
     border: none;
     border-radius: 15px;
     background-color: white;
+    border: 0.1rem solid white;
 }
 
 #registerButton:focus {
@@ -99,5 +101,4 @@ input::placeholder {
     cursor: pointer;
     color: white;
     background-color: #2c328bbe;
-    border: 0.1rem solid white;
 }
