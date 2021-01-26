@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Main page</title>
         <link rel="stylesheet" href="../../css/pageSetup.css" />
         <link rel="stylesheet" href="../../css/headerSetup.css" />
-        <link rel="stylesheet" href="../../css/animalSections/invertebrates.css" />
+        <link rel="stylesheet" href="../../css/animalSections/animalSection.css" />
     </head>
     <body>
         <header>
             <button id="mainPageButton">Marine Fauna Enclyclopedia</button>
             <nav>
-                <button>Invertebrates</button>
-                <button>Crustaceans</button>
-                <button>Ocean Fish</button>
-                <button>Sharks</button>
-                <button>Reptiles</button>
-                <button>Mammals</button>
+                <button id="invertebratesButton">Invertebrates</button>
+                <button id="crustaceansButton">Crustaceans</button>
+                <button id="fishButton">Ocean Fish</button>
+                <button id="sharksButton">Sharks</button>
+                <button id="reptilesButton">Reptiles</button>
+                <button id="mammalsButton">Mammals</button>
             </nav>
             <div class="userManagement">
                 <button id="loginButton">Login</button>
@@ -316,5 +317,7 @@
                 </article>
             </section>
         </main>
+        
+        <script type="text/javascript" src="../../js/headerSetupSubPages.js"></script>
     </body>
 </html>
