@@ -16,6 +16,7 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     max-width: 28rem;
     width: 75%;
@@ -26,8 +27,6 @@ section {
 }
 
 h1 {
-    align-self: center;
-
     font-size: 2.5rem;
     font-weight: bold;
     color: white;
@@ -36,10 +35,17 @@ h1 {
     padding-bottom: 2rem;
 }
 
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+}
+
 form {
     display: flex;
-    align-self: center;
+    align-items: center;
     flex-direction: column;
+
     width: 75%;
 
     border: 0.1rem solid white;
@@ -67,10 +73,11 @@ input::placeholder {
     text-align: center;
 }
 
-#submitButton {
+#submitLogin {
     width: 100%;
     height: 2.25rem;
     max-width: 10rem;
+    margin: 0.5rem;
 
     color: #008cffbe;
     font-size: 1rem;
@@ -82,7 +89,7 @@ input::placeholder {
     border: 0.1rem solid white;
 }
 
-#submitButton:focus {
+#submitLogin:focus {
     outline: none;
 }
 
@@ -109,7 +116,7 @@ input::placeholder {
     outline: none;
 }
 
-#submitButton:hover,
+#submitLogin:hover,
 #registrationButton:hover {
     cursor: pointer;
     color: white;

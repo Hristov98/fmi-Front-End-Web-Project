@@ -28,10 +28,11 @@
         <main>
             <section>
                 <h1>Login</h1>
+                <h2 id="errorMessageField"></h2>
                 <form>
-                    <input type="text" placeholder="Enter Email" />
-                    <input type="password" placeholder="Enter Password" />
-                    <input id="submitButton" type="submit" value="Continue" />
+                    <input id="email" type="text" placeholder="Enter Email" />
+                    <input id="password" type="password" placeholder="Enter Password" />
+                    <button id="submitLogin">Continue</button>
                 </form>
 
                 <a id="registrationButton" href="registration.html">Register</a>
@@ -39,5 +40,6 @@
         </main>
 
         <script type="text/javascript" src="../../js/headerSetupSubPages.js"></script>
+        <script type="text/javascript" src="../../js/userControl/login.js"></script>
     </body>
 </html>
