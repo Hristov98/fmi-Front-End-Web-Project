@@ -21,13 +21,15 @@ function validateUserRegistrationForm() {
 
 function validateUserName(username) {
     if (username.length <= 0) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The username must not be empty.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The username must not be empty.";
         return false;
     }
 
     const invalidSymbolsRegex = /[^a-zA-Z0-9-_]/g;
     if (username.search(invalidSymbolsRegex) != -1) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The username must not contain special symbols.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The username must not contain special symbols.";
         return false;
     }
 
@@ -36,35 +38,40 @@ function validateUserName(username) {
 
 function validateEmail(email) {
     if (email.length < 0) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The email must not be empty.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The email must not be empty.";
         return false;
     }
 
     const validEmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (!validEmailRegex.test(email)) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The email must be written in the correct format.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The email must be written in the correct format.";
         return false;
     }
 
     return true;
 }
 
-
 function validatePassword(password) {
     if (password.length < 6) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The password must contain at least 6 characters.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The password must contain at least 6 characters.";
         return false;
     }
     if (password.search(/[A-Z]/g) == -1) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The password must contain at least 1 uppercase letter.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The password must contain at least 1 uppercase letter.";
         return false;
     }
     if (password.search(/[a-z]/g) == -1) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The password must contain at least 1 lowercase letter.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The password must contain at least 1 lowercase letter.";
         return false;
     }
     if (password.search(/[0-9]/g) == -1) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The password must contain at least 1 digit.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The password must contain at least 1 digit.";
         return false;
     }
 
@@ -73,7 +80,8 @@ function validatePassword(password) {
 
 function validateMatchingPasswords(password, confirmPassword) {
     if (password != confirmPassword) {
-        document.getElementById("errorMessageField").innerText = "ERROR: The two passwords must match.";
+        document.getElementById("errorMessageField").innerText =
+            "ERROR: The two passwords must match.";
         return false;
     }
 
