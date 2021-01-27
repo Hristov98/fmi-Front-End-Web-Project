@@ -26,7 +26,7 @@ main {
 .sectionList {
     display: flex;
     align-content: flex-start;
-    width: 60%;
+    width: 50%;
     height: 70%;
     flex-wrap: wrap;
 
