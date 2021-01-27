@@ -1,0 +1,15 @@
+[
+    {
+        "id": "sevenArmedStarfish",
+        "type": "Invertebrate",
+        "name": "Seven-Armed Starfish",
+        "scientificName": "Luidia ciliaris",
+        "description": [
+            "L. ciliaris is an orangeish-brown colour and has seven long arms radiating from a small disk. It is a large but fragile sea star, growing to 40 cm across, and easily losing its arms (which afterwards regenerate).",
+            "L. ciliaris occurs on the seabed in the eastern Atlantic Ocean from Norway and the Faroe Islands southwards to Cape Verde and the Azores and in the Mediterranean Sea. It is found in the neritic zone at depths down to 400 m, mainly on soft sediments into which it sometimes burrows, but sometimes on rock.",
+            "L. ciliaris is a predator and scavenger and feeds predominantly on other echinoderms. A study in the Irish Sea found that the brittle stars and the sea urchin formed the chief items of prey."
+        ],
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/sevenArmedStarfish.jpg"
+    }
+]
