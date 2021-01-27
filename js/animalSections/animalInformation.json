@@ -11,5 +11,66 @@
         ],
         "dangerLevel": 0,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/sevenArmedStarfish.jpg"
+    },
+    {
+        "id": "blueAngel",
+        "type": "Invertebrate",
+        "name": "Blue Angel",
+        "scientificName": "Glaucus atlanticus",
+        "description": [
+            "Glaucus atlanticus is a species of small, blue sea slug, a pelagic aeolid nudibranch, a shell-less gastropod mollusk in the family Glaucidae.",
+            "At maturity Glaucus atlanticus can be up to 3 centimetres in length, though larger specimens have been found. It can live up to a year under the right conditions. It is silvery grey on its dorsal side and dark and pale blue ventrally. It has dark blue stripes on its head. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata.",
+            "G. atlanticus preys on other larger pelagic organisms. The sea slugs can move toward prey or mates by using their cerata to make slow swimming movements. They are known to prey on the dangerously venomous Portuguese man o' war, the blue button, and the violet snail. Occasionally, individuals attack and eat other individuals in captivity."
+        ],
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueAngel.jpg"
+    },
+    {
+        "id": "giantClam",
+        "type": "Invertebrate",
+        "name": "Giant Clam",
+        "scientificName": "Tridacna gigas",
+        "description": [
+            "Tridacna gigas is one of the most endangered clam species. The giant  clam lives in flat coral sand or broken coral and can be found at depths of as much as 20 m. Its range covers the Indo-Pacific, but populations are diminishing quickly, and the giant clam has become extinct in many areas where it was once common.",
+            "Algae provide giant clams with a supplementary source of nutrition. These plants consist of unicellular algae, whose metabolic products add to the clam's filter food. As a result, they are able to grow as  large as one meter in length even in nutrient-poor coral-reef waters.",
+            "Tridacna gigas reproduce sexually and are hermaphrodites. Self-fertilization is not possible, but this characteristic does allow them to reproduce with any other member of the species."
+        ],
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/giantClam.jpg"
+    },
+    {
+        "id": "blueRingedOctopus",
+        "type": "Invertebrate",
+        "name": "Blue-ringed Octopus",
+        "scientificName": "Hapalochlaena",
+        "description": [
+            " Blue-ringed octopuses, comprising the genus Hapalochlaena, are four highly venomous species of octopus that are found in tide pools and coral reefs in the Pacific and Indian oceans, from Japan to Australia. The species tend to have a lifespan of approximately two years.",
+            "They are recognized as one of the world's most venomous marine animals. Despite their small size (12 to 20 cm) and relatively docile nature, they carry enough venom to kill 26 adult humans. Their bites are tiny and often painless, with many victims not realizing they have been envenomated until respiratory depression and paralysis begins.",
+            "The venom can result in nausea, respiratory arrest, heart failure, severe and sometimes total paralysis, blindness, and can lead to death within minutes if not treated."
+        ],
+        "dangerLevel": 4.5,
+        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueRingedOctopus.jpg"
+    },
+    {
+        "id": "seaWasp",
+        "type": "Invertebrate",
+        "name": "Sea Wasp",
+        "scientificName": "Chironex fleckeri",
+        "description": [
+            "Chironex fleckeri is a species of extremely venomous box jellyfish found in coastal waters from northern Australia and New Guinea to Malaysia, the Philippines and Vietnam. It has been described as \"the most lethal jellyfish in the world\".",
+            "Notorious for its sting, C. fleckeri has tentacles up to 3 m long covered with millions of cnidocytes which, on contact, release microscopic darts delivering an extremely powerful venom. Being stung commonly results in excruciating pain, and if the sting area is significant, an untreated victim may die in two to five minutes. The amount of venom in one animal is said to be enough to kill 60 adult humans.",
+            "In Australia, C. fleckeri has caused at least 64 deaths since the first report in 1883, but most encounters appear to result only in mild envenomation. When people do die, it is usually caused by a cardiac arrest occurring within minutes of the sting."
+        ],
+        "dangerLevel": 4.5,
+        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/seaWasp.jpg"
+    },
+    {
+        "id": "",
+        "type": "[placeholder]",
+        "name": "",
+        "scientificName": "",
+        "description": ["", "", ""],
+        "dangerLevel": 0,
+        "imageURL": ""
     }
 ]

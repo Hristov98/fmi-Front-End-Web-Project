@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Main page</title> 
+        <title>Main page</title>
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/pageSetup.css" />
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/headerSetup.css" />
-        <link rel="stylesheet" href="http://127.0.0.1:5500/css/animalSections/animalSection.css" />       
+        <link rel="stylesheet" href="http://127.0.0.1:5500/css/animalSections/animalSection.css" />
     </head>
     <body>
         <header>
@@ -27,179 +27,12 @@
         <main>
             <aside class="sidebar">
                 <p id="legendLabel">Legend:</p>
-                <ul>
-                   
-                </ul>
+                <ul id="legend"></ul>
             </aside>
-            <section class="animalsList">
-                <article class="animalContainer">
-                    <aside class="animalImage">
-                        <img src="placeholder" alt="Image not added yet" />
-                    </aside>
-                    <section class="animalInformation">
-                        <div class="nameField">
-                            <div class="name">
-                                <p class="nameLabel">Name</p>
-                                <p></p>
-                            </div>
-                            <div class="scientificName">
-                                <p class="nameLabel">Scientific Name</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="descriptionField">
-
-                        </div>
-                        <div class="extraField">
-                            <div class="likes">
-                                <p class="likeCounter">0</p>
-                                <button class="likeButton">Like</button>
-                            </div>
-                            
-                            <div class="danger">
-                                <p class="dangerLabel">Danger Level</p>
-                                <div class="dangerRating">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-                <article class="animalContainer">
-                    <aside class="animalImage">
-                        <img src="placeholder" alt="Image not added yet" />
-                    </aside>
-                    <section class="animalInformation">
-                        <div class="nameField">
-                            <div class="name">
-                                <p class="nameLabel">Name</p>
-                                <p></p>
-                            </div>
-                            <div class="scientificName">
-                                <p class="nameLabel">Scientific Name</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="descriptionField">
-
-                        </div>
-                        <div class="extraField">
-                            <div class="likes">
-                                <p class="likeCounter">0</p>
-                                <button class="likeButton">Like</button>
-                            </div>
-                            
-                            <div class="danger">
-                                <p class="dangerLabel">Danger Level</p>
-                                <div class="dangerRating">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-                <article class="animalContainer">
-                    <aside class="animalImage">
-                        <img src="placeholder" alt="Image not added yet" />
-                    </aside>
-                    <section class="animalInformation">
-                        <div class="nameField">
-                            <div class="name">
-                                <p class="nameLabel">Name</p>
-                                <p></p>
-                            </div>
-                            <div class="scientificName">
-                                <p class="nameLabel">Scientific Name</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="descriptionField">
-
-                        </div>
-                        <div class="extraField">
-                            <div class="likes">
-                                <p class="likeCounter">0</p>
-                                <button class="likeButton">Like</button>
-                            </div>
-                            
-                            <div class="danger">
-                                <p class="dangerLabel">Danger Level</p>
-                                <div class="dangerRating">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-                <article class="animalContainer">
-                    <aside class="animalImage">
-                        <img src="placeholder" alt="Image not added yet" />
-                    </aside>
-                    <section class="animalInformation">
-                        <div class="nameField">
-                            <div class="name">
-                                <p class="nameLabel">Name</p>
-                                <p></p>
-                            </div>
-                            <div class="scientificName">
-                                <p class="nameLabel">Scientific Name</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="descriptionField">
-
-                        </div>
-                        <div class="extraField">
-                            <div class="likes">
-                                <p class="likeCounter">0</p>
-                                <button class="likeButton">Like</button>
-                            </div>
-                            
-                            <div class="danger">
-                                <p class="dangerLabel">Danger Level</p>
-                                <div class="dangerRating">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-                <article class="animalContainer">
-                    <aside class="animalImage">
-                        <img src="placeholder" alt="Image not added yet" />
-                    </aside>
-                    <section class="animalInformation">
-                        <div class="nameField">
-                            <div class="name">
-                                <p class="nameLabel">Name</p>
-                                <p></p>
-                            </div>
-                            <div class="scientificName">
-                                <p class="nameLabel">Scientific Name</p>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="descriptionField">
-
-                        </div>
-                        <div class="extraField">
-                            <div class="likes">
-                                <p class="likeCounter">0</p>
-                                <button class="likeButton">Like</button>
-                            </div>
-                            
-                            <div class="danger">
-                                <p class="dangerLabel">Danger Level</p>
-                                <div class="dangerRating">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-            </section>
+            <section id="animalsList"></section>
         </main>
         
         <script type="text/javascript" src="http://127.0.0.1:5500/js/headerSetupSubPages.js"></script>
+        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/animalJSONToHTMLParser.js"></script>
     </body>
 </html>
