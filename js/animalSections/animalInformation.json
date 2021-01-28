@@ -139,10 +139,79 @@
         "dangerLevel": 3,
         "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/japaneseSpiderCrab.jpg"
     },
-
+    {
+        "id": "ribbonEel",
+        "type": "Ocean Fish",
+        "name": "Ribbon Eel",
+        "scientificName": "Rhinomuraena quaesita",
+        "description": [
+            "The ribbon eel, also known as the leaf-nosed moray eel or bernis eel, is a species of moray eel, the only member of the genus Rhinomuraena. The ribbon eel is found in lagoons and reefs in the Indo-Pacific ocean, ranging from East Africa to southern Japan, Australia and French Polynesia.",
+            "This species is widely distributed and is frequently seen by divers in Indonesian waters with their heads and anterior bodies protruding from crevices in sand and rubble habitats from very shallow to about 60 m. They are well known for their characteristic jaws that are frequently opened very widely when a diver approaches.",
+            "Although captured for the aquarium industry, it remains common and widespread, and is not considered threatened."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/fishPage/ribbonEel.jpg"
+    },
+    {
+        "id": "giantMantaRay",
+        "type": "Ocean Fish",
+        "name": "Giant Manta Ray",
+        "scientificName": "Mobula birostris",
+        "description": [
+            "The giant oceanic manta ray is a species of ray in the family Mobulidae, and the largest type of ray in the world. It can grow to a disc size of up to 7 m across with a weight of about 3,000 kg. It is typically found in tropical and subtropical waters, but can also be found in temperate waters.",
+            "Because of its large size and velocity in case of danger, the oceanic manta ray has very few natural predators that could be fatal to it. Nonlethal shark bites are very common occurrences.",
+            "When traveling in deep water, the giant oceanic manta ray swims steadily in a straight line, while further inshore it usually basks or swims idly around. Mantas may travel alone or in groups of up to 50 and sometimes associate with other fish species, as well as sea birds and marine mammals."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/fishPage/giantMantaRay.jpg"
+    },
+    {
+        "id": "oceanSunfish",
+        "type": "Ocean Fish",
+        "name": "Ocean Sunfish",
+        "scientificName": "Mola mola",
+        "description": [
+            "The ocean sunfish or common mola is one of the heaviest known bony fishes in the world. Adults typically weigh between 247 and 1,000 kg. The species is native to tropical and temperate waters around the world.",
+            "Sunfish are generalist predators that consume largely small fishes, fish larvae, squid, and crustaceans. Sea jellies and salps, once thought to be the primary prey of sunfish, make up only 15% of a sunfish's diet.",
+            "Despite their size, ocean sunfish are docile and pose no threat to human divers. Injuries from sunfish are rare, although a slight danger exists from large sunfish leaping out of the water onto boats. Areas where they are commonly found are popular destinations for sport dives, and sunfish at some locations have reportedly become familiar with divers."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 1,
+        "imageURL": "http://127.0.0.1:5500/img/fishPage/oceanSunfish.jpg"
+    },
+    {
+        "id": "whiteMarlin",
+        "type": "Ocean Fish",
+        "name": "White Marlin",
+        "scientificName": "Kajikia albida",
+        "description": [
+            "The white marlin is a species of billfish that lives in the epipelagic zone of the tropical and subtropical Atlantic Ocean. Even though white marlin are found in bodies of water that are deeper than 100 m they tend to stay near the surface.",
+            "White marlin are near the top of the food chain and will consume any prey they can find that is manageable for their size. Schooling flyingfish, small tuna, mahi-mahi, and squid are the preferred prey of white marlin. White marlin usually keep to themselves, but associate with other apex predators to increase the efficiency of foraging.",
+            "About 90% of the annual catch is caught accidentally in bycatch from fishing around the world. Many billfish are caught in gillnets or on longline hooks that were meant to catch other fish species. Since these hooks and nets are set for long periods of time, white marlin become food to sharks, pilot whales, and killer whales."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 1,
+        "imageURL": "http://127.0.0.1:5500/img/fishPage/whiteMarlin.jpg"
+    },
+    {
+        "id": "devilFirefish",
+        "type": "Ocean Fish",
+        "name": "Devil Firefish",
+        "scientificName": "Pterois miles",
+        "description": [
+            "The devil firefish or common lionfish, is a species of ray-finned fish native to the western Indo-Pacific region. It is frequently confused with its close relative, the red lionfish (Pterois volitans).",
+            "The common lionfish is mainly nocturnal and hides in crevices during the daytime. It feeds on fish and small crustaceans. It has few predators because of its venomous spines, but larger lionfish do prey on smaller ones.",
+            "Lionfish are known for their venomous fin rays. The potency of their venom makes them excellent predators and hazardous to fishermen and divers. In humans, Pterois venom can cause systemic effects such as extreme pain, nausea, vomiting, fever, breathing difficulties, convulsions, dizziness, redness on the affected area, headache, numbness, heartburn, diarrhea, and sweating."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 2.5,
+        "imageURL": "http://127.0.0.1:5500/img/fishPage/devilFirefish.jpg"
+    },
     {
         "id": "",
-        "type": "[placeholder]",
+        "type": "",
         "name": "",
         "scientificName": "",
         "description": ["", "", ""],
