@@ -20,7 +20,7 @@
         "scientificName": "Glaucus atlanticus",
         "description": [
             "Glaucus atlanticus is a species of small, blue sea slug, a pelagic aeolid nudibranch, a shell-less gastropod mollusk in the family Glaucidae.",
-            "At maturity Glaucus atlanticus can be up to 3 centimetres in length, though larger specimens have been found. It can live up to a year under the right conditions. It is silvery grey on its dorsal side and dark and pale blue ventrally. It has dark blue stripes on its head. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata.",
+            "At maturity Glaucus atlanticus can be up to 3 centimetres in length, though larger specimens have been found. It can live up to a year under the right conditions. It is silvery grey on its dorsal side and dark and pale blue ventrally. It has dark blue stripes on its head.",
             "G. atlanticus preys on other larger pelagic organisms. The sea slugs can move toward prey or mates by using their cerata to make slow swimming movements. They are known to prey on the dangerously venomous Portuguese man o' war, the blue button, and the violet snail. Occasionally, individuals attack and eat other individuals in captivity."
         ],
         "likeCounter": 1,
@@ -47,7 +47,7 @@
         "name": "Blue-ringed Octopus",
         "scientificName": "Hapalochlaena",
         "description": [
-            " Blue-ringed octopuses, comprising the genus Hapalochlaena, are four highly venomous species of octopus that are found in tide pools and coral reefs in the Pacific and Indian oceans, from Japan to Australia. The species tend to have a lifespan of approximately two years.",
+            " Blue-ringed octopuses, comprising the genus Hapalochlaena, are four highly venomous species of octopus that are found in tide pools and coral reefs in the Pacific and Indian oceans, from Japan to Australia.",
             "They are recognized as one of the world's most venomous marine animals. Despite their small size (12 to 20 cm) and relatively docile nature, they carry enough venom to kill 26 adult humans. Their bites are tiny and often painless, with many victims not realizing they have been envenomated until respiratory depression and paralysis begins.",
             "The venom can result in nausea, respiratory arrest, heart failure, severe and sometimes total paralysis, blindness, and can lead to death within minutes if not treated."
         ],
@@ -117,8 +117,8 @@
         "name": "Mantis Shrimp",
         "scientificName": "Odontodactylus scyllarus",
         "description": [
-            "Mantis shrimps, are carnivorous marine crustaceans of the order Stomatopoda. Mantis shrimps typically grow to around 10 cm in length, while a few can reach up to 38 cm.",
-            "They're now sometimes referred to as \"thumb splitters\" because of the animal's ability to inflict painful wounds if handled incautiously. Mantis shrimp are commonly separated into two distinct groups determined by the type of claws they possess - Smashers and Spearers. Both types strike by rapidly unfolding and swinging their raptorial claws at the prey with an acceleration of 102,000 m/s2 and speeds of 23 m/s from a standing start, and can inflict serious damage on victims significantly greater in size than themselves.",
+            "Mantis shrimps, are carnivorous marine crustaceans of the order Stomatopoda. Mantis shrimps typically grow to around 10 cm in length.",
+            "They're sometimes referred to as \"thumb splitters\" because of the animal's ability to inflict painful wounds if handled incautiously. Mantis shrimp are commonly separated into two distinct groups determined by the type of claws they possess - Smashers and Spearers. Both types strike by rapidly unfolding and swinging their raptorial claws at the prey with speeds of 23 m/s from a standing start, and can inflict serious damage on victims significantly greater in size than themselves.",
             "Smashers use this ability to attack snails, crabs, molluscs, and rock oysters. Spearers, however, prefer the meat of softer animals, such as fish, which their barbed claws can more easily slice and snag."
         ],
         "likeCounter": 0,
@@ -278,6 +278,76 @@
         "likeCounter": 0,
         "dangerLevel": 5,
         "imageURL": "http://127.0.0.1:5500/img/sharkPage/bullShark.jpg"
+    },
+    {
+        "id": "loggerheadSeaTurtle",
+        "type": "Reptile",
+        "name": "Loggerhead Sea Turtle",
+        "scientificName": "Caretta caretta",
+        "description": [
+            "The loggerhead sea turtle is a species of oceanic turtle distributed throughout the world. The average loggerhead measures around 90 cm in carapace length when fully grown. The adult loggerhead sea turtle weighs approximately 135 kg.",
+            "The loggerhead sea turtle spends most of its life in saltwater and estuarine habitats, with females briefly coming ashore to lay eggs. It has a low reproductive rate. Females lay an average of four egg clutches and then become quiescent, producing no eggs for two to three years.",
+            "The loggerhead sea turtle is omnivorous, feeding mainly on bottom-dwelling invertebrates. Its large and powerful jaws serve as an effective tool for dismantling its prey. Young loggerheads are exploited by numerous predators, but once the turtles reach adulthood, their formidable size limits predation to large marine animals."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/reptilePage/loggerheadSeaTurtle.jpg"
+    },
+    {
+        "id": "marineIguana",
+        "type": "Reptile",
+        "name": "Marine Iguana",
+        "scientificName": "Amblyrhynchus cristatus",
+        "description": [
+            "The marine iguana is a species of iguana found only on the Galápagos Islands (Ecuador). Unique among modern lizards, it is a marine reptile that has the ability to forage in the sea for algae, which makes up almost all of its diet. Large males are able to dive to find this food source, while females and smaller males feed during low tide in the intertidal zone.",
+            "They mainly live in colonies on rocky shores where they bask after visiting the cold water or intertidal zone, but can also be seen in marshes, mangrove and beaches.",
+            "Marine iguanas can easily be approached by humans as they are very tame and generally make little or no attempt to escape. Even when repeatedly caught and mishandled, they do not attempt to bite or lash with their tail in self-defense (although the sharp claws can cause painful scratches when the iguana attempts to gain a grip)."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0.5,
+        "imageURL": "http://127.0.0.1:5500/img/reptilePage/marineIguana.jpg"
+    },
+    {
+        "id": "bandedSeaKrait",
+        "type": "Reptile",
+        "name": "Banded Sea Krait",
+        "scientificName": "Laticauda colubrina",
+        "description": [
+            "The yellow-lipped sea krait, also known as the banded sea krait, is a species of venomous sea snake found in tropical Indo-Pacific oceanic waters. The snake has distinctive black stripes and a yellow snout, with a paddle-like tail for use in swimming.",
+            "It spends much of its time underwater in order for it to hunt, but returns to land to digest, rest, and reproduce. It has very potent neurotoxic venom which it uses to prey on eels and small fish.",
+            "Because yellow-lipped sea kraits spend much of their time on land, they are often encountered by humans. They are frequently found in the water intake and exhaust pipes of boats. There are fewer recorded bites from this species compared to other venomous species such as cobras and vipers as it is less aggressive and tends to avoid humans. If they do bite, it is usually in self-defense when accidentally grabbed."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 1.5,
+        "imageURL": "http://127.0.0.1:5500/img/reptilePage/bandedSeaKrait.jpg"
+    },
+    {
+        "id": "americanCrocodile",
+        "type": "Reptile",
+        "name": "American Crocodile",
+        "scientificName": "Crocodylus acutus)",
+        "description": [
+            "The American crocodile is a species of crocodilian found in the Neotropics. It is the most widespread of the four extant species of crocodiles from the Americas, with populations present from South Florida and the coasts of Mexico to as far south as Peru and Venezuela.",
+            "Adult American crocodiles are apex predators, they have no natural predators. They are known predators of lemon sharks, and sharks avoid areas with American crocodiles. ",
+            "Attacks by American crocodiles have been reported in Mexico, Costa Rica, and Panama. The American crocodile rates somewhere in the middle of all crocodilians temperamentally. A study found that it has the highest incidence of reported attacks on humans of any of the crocodilians from the Americas, but fatalities were rare."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 4,
+        "imageURL": "http://127.0.0.1:5500/img/reptilePage/americanCrocodile.jpg"
+    },
+    {
+        "id": "saltwaterCrocodile",
+        "type": "Reptile",
+        "name": "Saltwater Crocodile",
+        "scientificName": "Crocodylus porosus",
+        "description": [
+            "The saltwater crocodile is a crocodilian native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia.",
+            "The saltwater crocodile is the largest living reptile and crocodilian known to science Males grow to a length of up to 6 m. It is a large and opportunistic hypercarnivorous apex predator. It is capable of prevailing over almost any animal that enters its territory, including other apex predators.",
+            "Of all the crocodilians, the saltwater crocodile has the strongest tendencies to treat humans as prey. It has a long history of attacking humans who unknowingly venture into its territory. As a result of its power, intimidating size and speed, survival of a direct predatory attack is unlikely if the crocodile is able to make direct contact."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 5,
+        "imageURL": "http://127.0.0.1:5500/img/reptilePage/saltwaterCrocodile.jpg"
     },
     {
         "id": "",
