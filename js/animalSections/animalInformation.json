@@ -70,6 +70,77 @@
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/seaWasp.jpg"
     },
     {
+        "id": "gooseBarnacle",
+        "type": "Crustacean",
+        "name": "Goose Barnacle",
+        "scientificName": "Pollicipes pollicipes",
+        "description": [
+            "Goose barnacles, also called stalked barnacles or gooseneck barnacles, are filter-feeding crustaceans that live attached to hard surfaces of rocks and flotsam in the ocean intertidal zone. Unlike most other types of barnacles, intertidal goose barnacles depend on water motion rather than the movement of their cirri for feeding, and are therefore found only on exposed or moderately exposed coasts.",
+            "In Portugal and Spain, the species is a widely consumed and expensive delicacy known as percebes. Percebes are harvested commercially in the Iberian northern coast, mainly in Galicia and Asturias.",
+            "In the days before it was realised that birds migrate, it was thought that barnacle geese developed from this crustacean through spontaneous generation, since they were never seen to nest in temperate Europe."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/gooseBarnacle.jpg"
+    },
+    {
+        "id": "hermitCrab",
+        "type": "Crustacean",
+        "name": "Hermit Crab",
+        "scientificName": "Clibanarius erythropus",
+        "description": [
+            "Clibanarius erythropus is a species of hermit crab that lives in rockpools and sublittoral waters. It is found in the Mediterranean Sea, Black Sea and eastern Atlantic Ocean from the Azores to Brittany, the Channel Islands and as far north as the south Cornwall coast. Individuals may grow up to a carapace length of 15 millimetres.",
+            "Like other hermit crabs, C. erythropus feeds on organic debris, decayed and fresh macro-algae, small invertebrates, and macroscopic pieces of animal tissues.",
+            "The strong association between hermit crabs and their shelters has significantly influenced their biology. This protective mobility contributes to the diversity and multitude of crustaceans found in almost all marine environments. It has been shown that C. erythropus individuals select substrates where they can cover large distances, and that globose shells allow them greater mobility than elongate ones."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/hermitCrab.jpg"
+    },
+    {
+        "id": "redKingCrab",
+        "type": "Crustacean",
+        "name": "Red King Crab",
+        "scientificName": "Paralithodes camtschaticus",
+        "description": [
+            "The red king crab, also called Kamchatka crab or Alaskan king crab, is a species of king crab native to the far northern Pacific Ocean, including the Bering Sea and Gulf of Alaska, but also introduced to the Barents Sea.",
+            "The red king crab is the largest species of king crab. Red king crabs can reach a carapace width up to 28 cm, a leg span of 1.8 m, and a weight of 12.7 kg. It was named after the color it turns when it is cooked rather than the color of a living animal, which tends to be more burgundy.",
+            "It is the most coveted of the commercially sold king crab species, and it is the most expensive per unit weight. It is most commonly caught in the Bering Sea and Norton Sound, Alaska, and is particularly difficult to catch, but is nonetheless one of the most preferred crabs for consumption."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 1,
+        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/redKingCrab.jpg"
+    },
+    {
+        "id": "mantisShrimp",
+        "type": "Crustacean",
+        "name": "Mantis Shrimp",
+        "scientificName": "Odontodactylus scyllarus",
+        "description": [
+            "Mantis shrimps, are carnivorous marine crustaceans of the order Stomatopoda. Mantis shrimps typically grow to around 10 cm in length, while a few can reach up to 38 cm.",
+            "They're now sometimes referred to as \"thumb splitters\" because of the animal's ability to inflict painful wounds if handled incautiously. Mantis shrimp are commonly separated into two distinct groups determined by the type of claws they possess - Smashers and Spearers. Both types strike by rapidly unfolding and swinging their raptorial claws at the prey with an acceleration of 102,000 m/s2 and speeds of 23 m/s from a standing start, and can inflict serious damage on victims significantly greater in size than themselves.",
+            "Smashers use this ability to attack snails, crabs, molluscs, and rock oysters. Spearers, however, prefer the meat of softer animals, such as fish, which their barbed claws can more easily slice and snag."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 2.5,
+        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/mantisShrimp.jpg"
+    },
+    {
+        "id": "japaneseSpiderCrab",
+        "type": "Crustacean",
+        "name": "Japanese Spider Crab",
+        "scientificName": "Macrocheira kaempferi",
+        "description": [
+            "The Japanese spider crab (Macrocheira kaempferi) is a species of marine crab that lives in the waters around Japan. It has the greatest leg span of any arthropod, reaching up to 3.7 metres from claw to claw. The body may grow to a size of 40 cm in carapace width and the whole crab can weigh up to 19 kilograms.",
+            "The Japanese spider crab is known to the Japanese for the serious injuries it can cause with its strong claws. It is occasionally collected for food, and even considered a delicacy in many parts of Japan and other areas in the region.",
+            "Female crabs carry the fertilized eggs attached to their abdominal appendages until they hatch into tiny planktonic larvae. They can lay up to 1.5 million eggs per season, and these eggs will hatch in 10 days on average. Once hatched, these larvae undergo four stages of development before they mature into adulthood."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 3,
+        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/japaneseSpiderCrab.jpg"
+    },
+
+    {
         "id": "",
         "type": "[placeholder]",
         "name": "",
