@@ -122,7 +122,7 @@
             "Smashers use this ability to attack snails, crabs, molluscs, and rock oysters. Spearers, however, prefer the meat of softer animals, such as fish, which their barbed claws can more easily slice and snag."
         ],
         "likeCounter": 0,
-        "dangerLevel": 2.5,
+        "dangerLevel": 1.5,
         "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/mantisShrimp.jpg"
     },
     {
@@ -136,7 +136,7 @@
             "Female crabs carry the fertilized eggs attached to their abdominal appendages until they hatch into tiny planktonic larvae. They can lay up to 1.5 million eggs per season, and these eggs will hatch in 10 days on average. Once hatched, these larvae undergo four stages of development before they mature into adulthood."
         ],
         "likeCounter": 0,
-        "dangerLevel": 3,
+        "dangerLevel": 2,
         "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/japaneseSpiderCrab.jpg"
     },
     {
@@ -208,6 +208,76 @@
         "likeCounter": 0,
         "dangerLevel": 2.5,
         "imageURL": "http://127.0.0.1:5500/img/fishPage/devilFirefish.jpg"
+    },
+    {
+        "id": "whaleShark",
+        "type": "Shark",
+        "name": "Whale Shark",
+        "scientificName": "Rhincodon typus",
+        "description": [
+            "The whale shark is a slow-moving, filter-feeding carpet shark and the largest known extant fish species. The largest confirmed individual had a length of 18.8 m. They feed almost exclusively on plankton and small fishes.",
+            "Whale shark mouths can contain over 300 rows of tiny teeth and 20 filter pads which it uses to filter feed. Unlike many other sharks, whale sharks' mouths are located at the front of the head rather than on the underside of the head.",
+            "Despite its size, the whale shark does not pose any danger to humans. Whale sharks are docile fish and sometimes allow swimmers to catch a ride, although this practice is discouraged by shark scientists and conservationists because of the disturbance to the sharks. Younger whale sharks are gentle and can play with divers."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 0,
+        "imageURL": "http://127.0.0.1:5500/img/sharkPage/whaleShark.jpg"
+    },
+    {
+        "id": "greatHammerheadShark",
+        "type": "Shark",
+        "name": "Great Hammerhead Shark",
+        "scientificName": "Sphyrna mokarran",
+        "description": [
+            "The great hammerhead is the largest species of hammerhead shark, attaining an average length of 4.6 m. It is found in tropical and warm temperate waters worldwide, inhabiting coastal areas and the continental shelf.",
+            "With its large size and cutting teeth, the great hammerhead could seriously injure a human and caution should be exercised around them. Divers underwater have reported that great hammerheads tend to be shy or nonreactive toward humans.",
+            "Although potentially dangerous, the great hammerhead rarely attacks humans. It sometimes behaves inquisitively toward divers and should be treated with respect. This shark is heavily fished for its large fins, which are extremely valuable on the Asian market as the main ingredient of shark fin soup. As a result, great hammerhead populations are declining substantially worldwide."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 2.5,
+        "imageURL": "http://127.0.0.1:5500/img/sharkPage/greatHammerheadShark.jpg"
+    },
+    {
+        "id": "tigerShark",
+        "type": "Shark",
+        "name": "Tiger Shark",
+        "scientificName": "Galeocerdo cuvier",
+        "description": [
+            "The tiger shark is a large macropredator, capable of attaining a length over 5 m. Populations are found in many tropical and temperate waters, especially around central Pacific islands. Its name derives from the dark stripes down its body, which resemble a tiger's pattern, but fade as the shark matures.",
+            "It is notable for having the widest food spectrum of all sharks, with a range of prey that includes crustaceans, fish, seals, birds, squid, turtles, sea snakes, dolphins, and even other smaller sharks.",
+            "The tiger shark is regarded as one of the most dangerous shark species. They often visit shallow reefs, harbors, and canals, creating the potential for encounter with humans. It ranks second on the list of number of recorded bites on humans, behind only the great white shark."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 4,
+        "imageURL": "http://127.0.0.1:5500/img/sharkPage/tigerShark.jpg"
+    },
+    {
+        "id": "greatWhiteShark",
+        "type": "Shark",
+        "name": "Great White Shark",
+        "scientificName": "Carcharodon carcharias",
+        "description": [
+            "The great white shark is a species of large mackerel shark which can be found in the coastal surface waters of all the major oceans. On average males measure 3.4 to 4.0 m, and females measure 4.6 to 4.9 m.",
+            "The great white shark has no known natural predators other than, on very rare occasions, the killer whale. It is one of the primary predators of marine mammals, up to the size of large baleen whales. This shark is also known to prey upon a variety of other marine animals, including fish, and seabirds.",
+            "While great white sharks have killed humans in at least 74 documented unprovoked bite incidents, they typically do not target them. Many of the incidents seemed to be \"test-bites\". Great white sharks test-bite buoys, flotsam, and other unfamiliar objects, and they might grab a human or a surfboard to identify what it is."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 4.5,
+        "imageURL": "http://127.0.0.1:5500/img/sharkPage/greatWhiteShark.jpg"
+    },
+    {
+        "id": "bullShark",
+        "type": "Shark",
+        "name": "Bull Shark",
+        "scientificName": "Carcharhinus leucas",
+        "description": [
+            "The bull shark is a requiem shark commonly found worldwide in warm, shallow waters along coasts and in rivers. It is known for its aggressive nature, and is commonly found worldwide in coastal areas of warm oceans, in rivers and lakes, and occasionally salt and freshwater streams if they are deep enough.",
+            "The bull shark's diet consists mainly of bony fish and small sharks, including other bull sharks, and stingrays. Bull sharks have been known to use the bump-and-bite technique to attack their prey. After the first initial contact, they continue to bite and tackle prey until they are unable to flee.",
+            "Bull sharks often dwell in very shallow waters, are found in many types of habitats, are territorial by nature, and have no tolerance for provocation. For this reason, they are considered more dangerous to humans than any other species of shark."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 5,
+        "imageURL": "http://127.0.0.1:5500/img/sharkPage/bullShark.jpg"
     },
     {
         "id": "",
