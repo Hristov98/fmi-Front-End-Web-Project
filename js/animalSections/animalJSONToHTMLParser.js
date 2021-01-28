@@ -1,3 +1,5 @@
+'use strict';
+
 function createEntryAnchor(id, name) {
     let anchor = document.createElement("li");
 
@@ -49,7 +51,7 @@ function createContentSection(animalEntry) {
 
     let nameField = createNameField(animalEntry.name, animalEntry.scientificName);
     let descriptionField = createDescriptionField(animalEntry.description);
-    let extraField = createExtraField(animalEntry.dangerLevel);
+    let extraField = createExtraField(animalEntry.likeCounter, animalEntry.dangerLevel);
 
     contentSection.appendChild(nameField);
     contentSection.appendChild(descriptionField);
@@ -119,11 +121,11 @@ function createDescriptionField(description) {
     return descriptionField;
 }
 
-function createExtraField(dangerLevel) {
+function createExtraField(likesNumber, dangerLevel) {
     let extraField = document.createElement("div");
     extraField.className = "extraField";
 
-    let likesField = createLikesField();
+    let likesField = createLikesField(likesNumber);
     let dangerField = createDangerField(dangerLevel);
 
     extraField.appendChild(likesField);
@@ -132,13 +134,13 @@ function createExtraField(dangerLevel) {
     return extraField;
 }
 
-function createLikesField() {
+function createLikesField(likesNumber) {
     let likesField = document.createElement("div");
     likesField.className = "likes";
 
     let counter = document.createElement("p");
     counter.className = "likeCounter";
-    counter.innerText = 0;
+    counter.innerText = likesNumber;
 
     let likeButton = document.createElement("button");
     likeButton.className = "likeButton";

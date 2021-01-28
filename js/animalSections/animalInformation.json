@@ -9,6 +9,7 @@
             "L. ciliaris occurs on the seabed in the eastern Atlantic Ocean from Norway and the Faroe Islands southwards to Cape Verde and the Azores and in the Mediterranean Sea. It is found in the neritic zone at depths down to 400 m, mainly on soft sediments into which it sometimes burrows, but sometimes on rock.",
             "L. ciliaris is a predator and scavenger and feeds predominantly on other echinoderms. A study in the Irish Sea found that the brittle stars and the sea urchin formed the chief items of prey."
         ],
+        "likeCounter": 0,
         "dangerLevel": 0,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/sevenArmedStarfish.jpg"
     },
@@ -22,6 +23,7 @@
             "At maturity Glaucus atlanticus can be up to 3 centimetres in length, though larger specimens have been found. It can live up to a year under the right conditions. It is silvery grey on its dorsal side and dark and pale blue ventrally. It has dark blue stripes on its head. It has a flat, tapering body and six appendages that branch out into rayed, finger-like cerata.",
             "G. atlanticus preys on other larger pelagic organisms. The sea slugs can move toward prey or mates by using their cerata to make slow swimming movements. They are known to prey on the dangerously venomous Portuguese man o' war, the blue button, and the violet snail. Occasionally, individuals attack and eat other individuals in captivity."
         ],
+        "likeCounter": 1,
         "dangerLevel": 0,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueAngel.jpg"
     },
@@ -35,6 +37,7 @@
             "Algae provide giant clams with a supplementary source of nutrition. These plants consist of unicellular algae, whose metabolic products add to the clam's filter food. As a result, they are able to grow as  large as one meter in length even in nutrient-poor coral-reef waters.",
             "Tridacna gigas reproduce sexually and are hermaphrodites. Self-fertilization is not possible, but this characteristic does allow them to reproduce with any other member of the species."
         ],
+        "likeCounter": 2,
         "dangerLevel": 0,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/giantClam.jpg"
     },
@@ -48,6 +51,7 @@
             "They are recognized as one of the world's most venomous marine animals. Despite their small size (12 to 20 cm) and relatively docile nature, they carry enough venom to kill 26 adult humans. Their bites are tiny and often painless, with many victims not realizing they have been envenomated until respiratory depression and paralysis begins.",
             "The venom can result in nausea, respiratory arrest, heart failure, severe and sometimes total paralysis, blindness, and can lead to death within minutes if not treated."
         ],
+        "likeCounter": 3,
         "dangerLevel": 4.5,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueRingedOctopus.jpg"
     },
@@ -61,6 +65,7 @@
             "Notorious for its sting, C. fleckeri has tentacles up to 3 m long covered with millions of cnidocytes which, on contact, release microscopic darts delivering an extremely powerful venom. Being stung commonly results in excruciating pain, and if the sting area is significant, an untreated victim may die in two to five minutes. The amount of venom in one animal is said to be enough to kill 60 adult humans.",
             "In Australia, C. fleckeri has caused at least 64 deaths since the first report in 1883, but most encounters appear to result only in mild envenomation. When people do die, it is usually caused by a cardiac arrest occurring within minutes of the sting."
         ],
+        "likeCounter": 4,
         "dangerLevel": 4.5,
         "imageURL": "http://127.0.0.1:5500/img/invertebratePage/seaWasp.jpg"
     },
@@ -70,6 +75,7 @@
         "name": "",
         "scientificName": "",
         "description": ["", "", ""],
+        "likeCounter": 0,
         "dangerLevel": 0,
         "imageURL": ""
     }

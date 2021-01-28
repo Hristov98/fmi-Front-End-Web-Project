@@ -1,3 +1,5 @@
+'use strict';
+
 document.getElementById("submitLogin").addEventListener("click", function () {
     validateUserLoginForm();
 });

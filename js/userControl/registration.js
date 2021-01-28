@@ -1,3 +1,5 @@
+'use strict';
+
 document.getElementById("submitRegistration").addEventListener("click", function () {
     validateUserRegistrationForm();
 });
