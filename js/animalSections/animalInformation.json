@@ -350,13 +350,73 @@
         "imageURL": "http://127.0.0.1:5500/img/reptilePage/saltwaterCrocodile.jpg"
     },
     {
-        "id": "",
-        "type": "",
-        "name": "",
-        "scientificName": "",
-        "description": ["", "", ""],
+        "id": "blueWhale",
+        "type": "Mammal",
+        "name": "Blue Whale",
+        "scientificName": "Balaenoptera musculus",
+        "description": [
+            "The blue whale is a marine mammal belonging to the baleen whale suborder Mysticeti. Reaching a maximum confirmed length of 29.9 meters and weight of 190 tons, it is the largest animal known to have ever existed.",
+            "Blue whales feed on krill at the surface and at depths greater than 100 m, following their prey’s diel vertical migration through the water column. The main prey species of krill targeted by blue whales varies among habitat in the different ocean basins.",
+            "The blue whale was once abundant in nearly all the oceans on Earth until the end of the 19th century. It was hunted almost to the point of extinction by whaling until the International Whaling Commission banned all hunting of blue whales in 1967. The global blue whale population abundance is estimated to be 10,000–25,000 blue whales, roughly 3–11% of the population size estimated in 1911."
+        ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": ""
+        "imageURL": "http://127.0.0.1:5500/img/mammalPage/blueWhale.jpg"
+    },
+    {
+        "id": "seaOtter",
+        "type": "Mammal",
+        "name": "Sea Otter",
+        "scientificName": "Enhydra lutris",
+        "description": [
+            "The sea otter is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean. Adult sea otters typically weigh between 14 and 45 kg, making them the heaviest members of the weasel family, but among the smallest marine mammals. ",
+            "Unlike most marine mammals, the sea otter's primary form of insulation is an exceptionally thick coat of fur, the densest in the animal kingdom. Although it can walk on land, the sea otter is capable of living exclusively in the ocean.",
+            "The sea otter inhabits nearshore environments, where it dives to the sea floor to forage. It preys mostly on marine invertebrates such as sea urchins, various molluscs and crustaceans, and some species of fish. Its diet includes prey species that are also valued by humans as food, leading to conflicts between sea otters and fisheries."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 1,
+        "imageURL": "http://127.0.0.1:5500/img/mammalPage/seaOtter.jpg"
+    },
+    {
+        "id": "walrus",
+        "type": "Mammal",
+        "name": "Walrus",
+        "scientificName": "Odobenus rosmarus",
+        "description": [
+            "The walrus is a large flippered marine mammal with a discontinuous distribution about the North Pole in the Arctic Ocean and subarctic seas of the Northern Hemisphere. Adult walrus are characterised by prominent tusks and whiskers, and their considerable bulk: adult males in the Pacific can weigh more than 2,000 kilograms.",
+            "Walruses live mostly in shallow waters above the continental shelves, spending significant amounts of their lives on the sea ice looking for benthic bivalve mollusks to eat. Walruses are relatively long-lived, social animals.",
+            "In the 18th and 19th centuries, the walrus was heavily exploited by American and European sealers and whalers. Commercial walrus harvesting is now outlawed throughout its range, although Chukchi, Yupik and Inuit peoples are permitted to kill small numbers towards the end of each summer. "
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 2,
+        "imageURL": "http://127.0.0.1:5500/img/mammalPage/walrus.jpg"
+    },
+    {
+        "id": "bottlenoseDolphin",
+        "type": "Mammal",
+        "name": "Bottlenose Dolphin",
+        "scientificName": "Tursiops truncatus",
+        "description": [
+            "The common bottlenose dolphin is the most familiar dolphin species due to the wide exposure it receives in captivity in marine parks and dolphinaria, and in movies and television programs. It inhabits temperate and tropical oceans throughout the world, and is absent only from polar waters.",
+            "Its diet consists mainly of eels, squid, shrimp and a wide variety of fishes. It does not chew its food, instead swallowing it whole. Dolphin pods often work as a team to harvest schools of fish, though they also hunt individually. Dolphins search for prey primarily using echolocation, which is a form of sonar.",
+            "The species sometimes shows curiosity towards humans in or near water. Occasionally, they rescue injured divers by raising them to the surface. Despite this, they are predators and are capable of inflicting serious injuries upon humans."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 2,
+        "imageURL": "http://127.0.0.1:5500/img/mammalPage/bottlenoseDolphin.jpg"
+    },
+    {
+        "id": "killerWhale",
+        "type": "Mammal",
+        "name": "Killer Whale",
+        "scientificName": "Orcinus orca",
+        "description": [
+            "The killer whale, also known as the orca, is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member. They can be found in each of the world's oceans in a variety of marine environments, from Arctic and Antarctic regions to tropical seas.",
+            "Orcas have a diverse diet, although individual populations often specialize in particular types of prey. They have been known to attack baleen whale calves, and even adult whales. Killer whales are apex predators, as no animal preys on them.",
+            "In Western cultures, killer whales were historically feared as dangerous, savage predators. Of the very few confirmed attacks on humans by wild killer whales, none have been fatal. However, in captivity, there have been several non-fatal and fatal attacks on humans."
+        ],
+        "likeCounter": 0,
+        "dangerLevel": 3,
+        "imageURL": "http://127.0.0.1:5500/img/mammalPage/killerWhale.jpg"
     }
 ]
