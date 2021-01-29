@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 document.querySelector("#animalsList").addEventListener("click", function (clickEvent) {
     if (clickEvent.target.classList.contains("likeButton")) {

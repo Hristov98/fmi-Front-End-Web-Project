@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function createEntryAnchor(id, name) {
     let anchor = document.createElement("li");
