@@ -1,0 +1,17 @@
+[
+    {
+        "username": "admin",
+        "email": "admin@abv.bg",
+        "password": "Admin1"
+    },
+    {
+        "username": "test",
+        "email": "test@abv.bg",
+        "password": "TestABC2"
+    },
+    {
+        "username": "viktor",
+        "email": "vsh@abv.bg",
+        "password": "Viktor1"
+    }
+]
