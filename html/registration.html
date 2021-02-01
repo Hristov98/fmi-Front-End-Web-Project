@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Reptiles</title>
+        <title>Registration</title>
+
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/pageSetup.css" />
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/headerSetup.css" />
-        <link rel="stylesheet" href="http://127.0.0.1:5500/css/animalSection.css" />
+        <link rel="stylesheet" href="http://127.0.0.1:5500/css/userControl/registration.css" />
     </head>
     <body>
         <header>
@@ -25,16 +26,20 @@
             </div>
         </header>
         <main>
-            <aside class="sidebar">
-                <p id="legendLabel">Reptiles:</p>
-                <ul id="legend"></ul>
-            </aside>
-            <section id="animalsList"></section>
+            <section>
+                <h1>Registration</h1>
+                <h2 id="errorMessageField"></h2>
+                <form>
+                    <input id="username" type="text" placeholder="Username" />
+                    <input id="email" type="text" placeholder="Email" />
+                    <input id="password" type="password" placeholder="Password" />
+                    <input id="confirmPassword" type="password" placeholder="Confirm password" />
+                    <button id="submitRegistration">Register</button>
+                </form>
+            </section>
         </main>
 
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/headerSetup.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/animalJSONToHTMLParser.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/reptiles.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/likeButtonListeners.js"></script>
+        <script type="text/javascript" src="http://127.0.0.1:5500/js/navbarOuter.js"></script>
+        <script type="text/javascript" src="http://127.0.0.1:5500/js/userControl/registration.js"></script>
     </body>
 </html>

@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ocean Fish</title>
+        <title>Login</title>
+
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/pageSetup.css" />
         <link rel="stylesheet" href="http://127.0.0.1:5500/css/headerSetup.css" />
-        <link rel="stylesheet" href="http://127.0.0.1:5500/css/animalSection.css" />
+        <link rel="stylesheet" href="http://127.0.0.1:5500/css/userControl/login.css" />
     </head>
     <body>
         <header>
@@ -25,16 +26,20 @@
             </div>
         </header>
         <main>
-            <aside class="sidebar">
-                <p id="legendLabel">Ocean Fish:</p>
-                <ul id="legend"></ul>
-            </aside>
-            <section id="animalsList"></section>
+            <section>
+                <h1>Login</h1>
+                <h2 id="errorMessageField"></h2>
+                <form>
+                    <input id="email" type="text" placeholder="Enter Email" />
+                    <input id="password" type="password" placeholder="Enter Password" />
+                    <button id="submitLogin">Continue</button>
+                </form>
+
+                <a id="registrationButton" href="registration.html">Register</a>
+            </section>
         </main>
 
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/headerSetup.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/animalJSONToHTMLParser.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/fish.js"></script>
-        <script type="text/javascript" src="http://127.0.0.1:5500/js/animalSections/likeButtonListeners.js"></script>
+        <script type="text/javascript" src="http://127.0.0.1:5500/js/navbarOuter.js"></script>
+        <script type="text/javascript" src="http://127.0.0.1:5500/js/userControl/login.js"></script>
     </body>
 </html>
