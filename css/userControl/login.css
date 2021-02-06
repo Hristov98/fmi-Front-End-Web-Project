@@ -31,7 +31,7 @@ h1 {
     font-weight: bold;
     color: white;
 
-    margin: 0rem;
+    margin: 0;
     padding-bottom: 2rem;
 }
 
@@ -55,8 +55,8 @@ input {
     align-self: center;
     width: 60%;
     height: 2rem;
-    margin: 0.75rem 0rem;
-    padding: 0rem;
+    margin: 0.75rem 0;
+    padding: 0;
 
     border: none;
     color: white;
