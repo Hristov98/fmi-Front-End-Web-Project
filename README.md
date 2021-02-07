@@ -1,6 +1,7 @@
 TODO list:
 
-1. Add responsive CSS to work on portrait mode
+1. Refactor code
+2. Change animal container sizes from rem to %
 
 Future expansion ideas:
 

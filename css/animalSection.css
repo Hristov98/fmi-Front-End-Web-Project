@@ -16,7 +16,8 @@ main {
 .sidebar {
     width: 20%;
     height: 100%;
-    max-width: 20%;
+
+    overflow-y: auto;
 
     background-color: #0093e9;
     background-image: linear-gradient(0deg, #0093e9 0%, #48c3c7 100%);
@@ -33,8 +34,7 @@ main {
 
 ul {
     margin: 0;
-
-    font-size: 1rem;
+    
     color: white;
 }
 
@@ -210,4 +210,103 @@ img {
     width: 1.5rem;
     height: 1.5rem;
     margin: 0.2rem;
+}
+
+/*360 x 740*/
+@media screen and (max-width: 360px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 25%;
+        overflow-y: auto;
+    }
+
+    #legendLabel {
+        display: none;
+    }
+
+    #animalsList {
+        width: 100%;
+    }
+
+    .animalContainer {
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 95%;
+        height: 100%;
+    }
+
+    .animalImage {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+    }
+
+    img {
+        width: 70%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .animalInformation {
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    }
+
+    .nameField {
+        flex-direction: column;
+        height: 20%;
+    }
+
+    .name,
+    .scientificName {
+        font-size: 0.75rem;
+    }
+
+    .descriptionField {
+    }
+
+    .descriptionField p {
+        margin: 0.25rem;
+        font-size: 0.5rem;
+    }
+
+    @-moz-document url-prefix() {
+        .descriptionField p {
+            margin: 0.25rem;
+            font-size: 0.45rem;
+        }
+    }
+
+    .extraField {
+        height: 20%;
+    }
+
+    .likeCounter {
+        margin: 0.5rem;
+
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    .likeButton {
+        width: 100%;
+        height: 75%;
+    }
+
+    .dangerLabel {
+        font-size: 0.75rem;
+    }
+
+    .starImage {
+        width: 0.75rem;
+        height: 0.75rem;
+        margin: 0.1rem;
+    }
 }
