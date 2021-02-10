@@ -6,9 +6,9 @@ function addLinkToButton(buttonId, pageURL) {
     });
 }
 
-addLinkToButton("mainPageButton", "http://127.0.0.1:5500/index.html");
-addLinkToButton("loginButton", "http://127.0.0.1:5500/html/login.html");
-addLinkToButton("registerButton", "http://127.0.0.1:5500/html/registration.html");
+addLinkToButton("mainPageButton", "/index.html");
+addLinkToButton("loginButton", "/html/login.html");
+addLinkToButton("registerButton", "/html/registration.html");
 
 function addActionToNavbarButton(buttonId, category) {
     document.getElementById(buttonId).addEventListener("click", function (mouseEvent) {
@@ -68,7 +68,7 @@ function addEntriesByCategory(category) {
         }
     };
 
-    let jsonURL = "http://127.0.0.1:5500/js/animalSections/animalInformation.json";
+    let jsonURL = "/js/animalSections/animalInformation.json";
     xhttp.open("GET", jsonURL, true);
     xhttp.send();
 }

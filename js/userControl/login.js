@@ -10,33 +10,7 @@ function validateUserLoginForm() {
     let inputPassword = document.getElementById("password").value;
 
     if (validateEmail(inputEmail) && validatePassword(inputPassword)) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                let userDoesNotExist = true;
-                let jsonResultArray;
-                jsonResultArray = JSON.parse(this.responseText);
-
-                for (let i = 0; i < jsonResultArray.length; i++) {
-                    if (
-                        jsonResultArray[i].email === inputEmail &&
-                        jsonResultArray[i].password === inputPassword
-                    ) {
-                        window.location = "http://127.0.0.1:5500/index.html";
-                        userDoesNotExist = false;
-                    }
-                }
-
-                if (userDoesNotExist) {
-                    document.getElementById("errorMessageField").innerText =
-                        "The email or password you have entered is incorrect.";
-                }
-            }
-        };
-
-        let jsonURL = "http://127.0.0.1:5500/js/userControl/users.json";
-        xhttp.open("GET", jsonURL, true);
-        xhttp.send();
+        compareLoginCredentialsToUsers(inputEmail, inputPassword);
     }
 }
 
@@ -80,4 +54,34 @@ function validatePassword(password) {
     }
 
     return true;
+}
+
+function compareLoginCredentialsToUsers(inputEmail, inputPassword) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            let userDoesNotExist = true;
+            let jsonResultArray;
+            jsonResultArray = JSON.parse(this.responseText);
+
+            for (let i = 0; i < jsonResultArray.length; i++) {
+                if (
+                    jsonResultArray[i].email === inputEmail &&
+                    jsonResultArray[i].password === inputPassword
+                ) {
+                    window.location = "/index.html";
+                    userDoesNotExist = false;
+                }
+            }
+
+            if (userDoesNotExist) {
+                document.getElementById("errorMessageField").innerText =
+                    "The email or password you have entered is incorrect.";
+            }
+        }
+    };
+
+    let jsonURL = "/js/userControl/users.json";
+    xhttp.open("GET", jsonURL, true);
+    xhttp.send();
 }

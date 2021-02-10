@@ -1,7 +1,6 @@
 TODO list:
 
-1. Refactor code
-2. Change animal container sizes from rem to %
+1. Change animal container sizes from rem to %
 
 Future expansion ideas:
 

@@ -11,7 +11,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/sevenArmedStarfish.jpg"
+        "imageURL": "/img/invertebratePage/sevenArmedStarfish.jpg"
     },
     {
         "id": "blueAngel",
@@ -25,7 +25,7 @@
         ],
         "likeCounter": 1,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueAngel.jpg"
+        "imageURL": "/img/invertebratePage/blueAngel.jpg"
     },
     {
         "id": "giantClam",
@@ -39,7 +39,7 @@
         ],
         "likeCounter": 2,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/giantClam.jpg"
+        "imageURL": "/img/invertebratePage/giantClam.jpg"
     },
     {
         "id": "blueRingedOctopus",
@@ -53,7 +53,7 @@
         ],
         "likeCounter": 3,
         "dangerLevel": 4.5,
-        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/blueRingedOctopus.jpg"
+        "imageURL": "/img/invertebratePage/blueRingedOctopus.jpg"
     },
     {
         "id": "seaWasp",
@@ -67,7 +67,7 @@
         ],
         "likeCounter": 4,
         "dangerLevel": 4.5,
-        "imageURL": "http://127.0.0.1:5500/img/invertebratePage/seaWasp.jpg"
+        "imageURL": "/img/invertebratePage/seaWasp.jpg"
     },
     {
         "id": "gooseBarnacle",
@@ -81,7 +81,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/gooseBarnacle.jpg"
+        "imageURL": "/img/crustaceanPage/gooseBarnacle.jpg"
     },
     {
         "id": "hermitCrab",
@@ -95,7 +95,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/hermitCrab.jpg"
+        "imageURL": "/img/crustaceanPage/hermitCrab.jpg"
     },
     {
         "id": "redKingCrab",
@@ -109,7 +109,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1,
-        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/redKingCrab.jpg"
+        "imageURL": "/img/crustaceanPage/redKingCrab.jpg"
     },
     {
         "id": "mantisShrimp",
@@ -123,7 +123,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1.5,
-        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/mantisShrimp.jpg"
+        "imageURL": "/img/crustaceanPage/mantisShrimp.jpg"
     },
     {
         "id": "japaneseSpiderCrab",
@@ -137,7 +137,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 2,
-        "imageURL": "http://127.0.0.1:5500/img/crustaceanPage/japaneseSpiderCrab.jpg"
+        "imageURL": "/img/crustaceanPage/japaneseSpiderCrab.jpg"
     },
     {
         "id": "ribbonEel",
@@ -151,7 +151,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/fishPage/ribbonEel.jpg"
+        "imageURL": "/img/fishPage/ribbonEel.jpg"
     },
     {
         "id": "giantMantaRay",
@@ -165,7 +165,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/fishPage/giantMantaRay.jpg"
+        "imageURL": "/img/fishPage/giantMantaRay.jpg"
     },
     {
         "id": "oceanSunfish",
@@ -179,7 +179,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1,
-        "imageURL": "http://127.0.0.1:5500/img/fishPage/oceanSunfish.jpg"
+        "imageURL": "/img/fishPage/oceanSunfish.jpg"
     },
     {
         "id": "whiteMarlin",
@@ -193,7 +193,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1,
-        "imageURL": "http://127.0.0.1:5500/img/fishPage/whiteMarlin.jpg"
+        "imageURL": "/img/fishPage/whiteMarlin.jpg"
     },
     {
         "id": "devilFirefish",
@@ -207,7 +207,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 2.5,
-        "imageURL": "http://127.0.0.1:5500/img/fishPage/devilFirefish.jpg"
+        "imageURL": "/img/fishPage/devilFirefish.jpg"
     },
     {
         "id": "whaleShark",
@@ -221,7 +221,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/sharkPage/whaleShark.jpg"
+        "imageURL": "/img/sharkPage/whaleShark.jpg"
     },
     {
         "id": "greatHammerheadShark",
@@ -235,7 +235,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 2.5,
-        "imageURL": "http://127.0.0.1:5500/img/sharkPage/greatHammerheadShark.jpg"
+        "imageURL": "/img/sharkPage/greatHammerheadShark.jpg"
     },
     {
         "id": "tigerShark",
@@ -249,7 +249,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 4,
-        "imageURL": "http://127.0.0.1:5500/img/sharkPage/tigerShark.jpg"
+        "imageURL": "/img/sharkPage/tigerShark.jpg"
     },
     {
         "id": "greatWhiteShark",
@@ -263,7 +263,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 4.5,
-        "imageURL": "http://127.0.0.1:5500/img/sharkPage/greatWhiteShark.jpg"
+        "imageURL": "/img/sharkPage/greatWhiteShark.jpg"
     },
     {
         "id": "bullShark",
@@ -277,7 +277,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 5,
-        "imageURL": "http://127.0.0.1:5500/img/sharkPage/bullShark.jpg"
+        "imageURL": "/img/sharkPage/bullShark.jpg"
     },
     {
         "id": "loggerheadSeaTurtle",
@@ -291,7 +291,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/reptilePage/loggerheadSeaTurtle.jpg"
+        "imageURL": "/img/reptilePage/loggerheadSeaTurtle.jpg"
     },
     {
         "id": "marineIguana",
@@ -305,7 +305,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0.5,
-        "imageURL": "http://127.0.0.1:5500/img/reptilePage/marineIguana.jpg"
+        "imageURL": "/img/reptilePage/marineIguana.jpg"
     },
     {
         "id": "bandedSeaKrait",
@@ -319,7 +319,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1.5,
-        "imageURL": "http://127.0.0.1:5500/img/reptilePage/bandedSeaKrait.jpg"
+        "imageURL": "/img/reptilePage/bandedSeaKrait.jpg"
     },
     {
         "id": "americanCrocodile",
@@ -333,7 +333,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 4,
-        "imageURL": "http://127.0.0.1:5500/img/reptilePage/americanCrocodile.jpg"
+        "imageURL": "/img/reptilePage/americanCrocodile.jpg"
     },
     {
         "id": "saltwaterCrocodile",
@@ -347,7 +347,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 5,
-        "imageURL": "http://127.0.0.1:5500/img/reptilePage/saltwaterCrocodile.jpg"
+        "imageURL": "/img/reptilePage/saltwaterCrocodile.jpg"
     },
     {
         "id": "blueWhale",
@@ -361,7 +361,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 0,
-        "imageURL": "http://127.0.0.1:5500/img/mammalPage/blueWhale.jpg"
+        "imageURL": "/img/mammalPage/blueWhale.jpg"
     },
     {
         "id": "seaOtter",
@@ -375,7 +375,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 1,
-        "imageURL": "http://127.0.0.1:5500/img/mammalPage/seaOtter.jpg"
+        "imageURL": "/img/mammalPage/seaOtter.jpg"
     },
     {
         "id": "walrus",
@@ -389,7 +389,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 2,
-        "imageURL": "http://127.0.0.1:5500/img/mammalPage/walrus.jpg"
+        "imageURL": "/img/mammalPage/walrus.jpg"
     },
     {
         "id": "bottlenoseDolphin",
@@ -403,7 +403,7 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 2,
-        "imageURL": "http://127.0.0.1:5500/img/mammalPage/bottlenoseDolphin.jpg"
+        "imageURL": "/img/mammalPage/bottlenoseDolphin.jpg"
     },
     {
         "id": "killerWhale",
@@ -417,6 +417,6 @@
         ],
         "likeCounter": 0,
         "dangerLevel": 3,
-        "imageURL": "http://127.0.0.1:5500/img/mammalPage/killerWhale.jpg"
+        "imageURL": "/img/mammalPage/killerWhale.jpg"
     }
 ]

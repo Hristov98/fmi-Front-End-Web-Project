@@ -17,37 +17,7 @@ function validateUserRegistrationForm() {
         validatePassword(inputPassword) &&
         validateMatchingPasswords(inputPassword, inputConfirmPassword)
     ) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                let userIsNotRegistered = true;
-                let jsonResultArray;
-                jsonResultArray = JSON.parse(this.responseText);
-
-                for (let i = 0; i < jsonResultArray.length; i++) {
-                    if (jsonResultArray[i].username === inputUsername) {
-                        document.getElementById("errorMessageField").innerText =
-                            "The username you have entered is already registered.";
-                        userIsNotRegistered = false;
-                        break;
-                    }
-                    if (jsonResultArray[i].email === inputEmail) {
-                        document.getElementById("errorMessageField").innerText =
-                            "The email you have entered is already registered.";
-                        userIsNotRegistered = false;
-                        break;
-                    }
-                }
-
-                if (userIsNotRegistered) {
-                    window.location = "http://127.0.0.1:5500/index.html";
-                }
-            }
-        };
-
-        let jsonURL = "http://127.0.0.1:5500/js/userControl/users.json";
-        xhttp.open("GET", jsonURL, true);
-        xhttp.send();
+        compareRegistrationCredentialsToUsers(inputUsername, inputEmail);
     }
 }
 
@@ -118,4 +88,38 @@ function validateMatchingPasswords(password, confirmPassword) {
     }
 
     return true;
+}
+
+function compareRegistrationCredentialsToUsers(inputUsername, inputEmail) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            let userIsNotRegistered = true;
+            let jsonResultArray;
+            jsonResultArray = JSON.parse(this.responseText);
+
+            for (let i = 0; i < jsonResultArray.length; i++) {
+                if (jsonResultArray[i].username === inputUsername) {
+                    document.getElementById("errorMessageField").innerText =
+                        "ERROR: The username you have entered is already registered.";
+                    userIsNotRegistered = false;
+                    break;
+                }
+                if (jsonResultArray[i].email === inputEmail) {
+                    document.getElementById("errorMessageField").innerText =
+                        "ERROR: The email you have entered is already registered.";
+                    userIsNotRegistered = false;
+                    break;
+                }
+            }
+
+            if (userIsNotRegistered) {
+                window.location = "/index.html";
+            }
+        }
+    };
+
+    let jsonURL = "/js/userControl/users.json";
+    xhttp.open("GET", jsonURL, true);
+    xhttp.send();
 }

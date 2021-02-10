@@ -16,7 +16,6 @@ body {
     height: 100%;
 }
 
-
 /*360 x 740*/
 @media screen and (max-width: 360px) {
     header {

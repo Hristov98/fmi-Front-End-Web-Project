@@ -203,7 +203,7 @@ function createDangerRating(dangerLevel) {
 function createEmptyStar() {
     let emptyStar = document.createElement("img");
     emptyStar.className = "starImage";
-    emptyStar.src = "http://127.0.0.1:5500/img/starEmpty.png";
+    emptyStar.src = "/img/starEmpty.png";
     emptyStar.alt = "Empty Star";
 
     return emptyStar;
@@ -212,7 +212,7 @@ function createEmptyStar() {
 function createHalfStar() {
     let halfStar = document.createElement("img");
     halfStar.className = "starImage";
-    halfStar.src = "http://127.0.0.1:5500/img/starHalf.png";
+    halfStar.src = "/img/starHalf.png";
     halfStar.alt = "Half Star";
 
     return halfStar;
@@ -221,7 +221,7 @@ function createHalfStar() {
 function createFullStar() {
     let fullStar = document.createElement("img");
     fullStar.className = "starImage";
-    fullStar.src = "http://127.0.0.1:5500/img/starFull.png";
+    fullStar.src = "/img/starFull.png";
     fullStar.alt = "Full Star";
 
     return fullStar;
